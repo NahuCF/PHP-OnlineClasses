@@ -1,0 +1,117 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+body {
+    background-color: #478CCC;
+}
+.wrap {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.LogIn {  
+    width: 400px;
+    background-color: #F5F7F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 8px -4px rgba(0,0,0,0.75);
+}
+.LogIn-Content {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin: 35px 0px;
+}
+.ArrowContenedor{
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    color: #68d179;
+}
+h2 {
+    margin-bottom: 17px;
+}
+input {
+    height: 40px;
+    font-size: 1em;
+}
+.Input {
+    width: calc(100% - 38px);
+    padding: 0px 0px 0px 15px;
+    background-color: white;
+}
+.LogIn .StudenForm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.LogIn .StudenForm .Camp {
+    display: flex;
+    background-color: #E9E9E9;
+    margin-bottom: 20px;
+}
+.LogIn .StudenForm .Camp .Student-Form-Icon {
+    width: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SubmitButton {
+    width: 100%;
+    margin-bottom: 15px;
+    background-color: #478CCC;
+    color: white;
+    margin-bottom: 0px;
+    margin-bottom: 17px;
+}
+.SubmitButton:hover {
+    background-color: #4469D7;
+}
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+.Pasword-Button {
+    color: #4469D7;
+}
+.SubmitContainer:hover {
+    cursor: pointer;
+}
+.SignUpButton {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #68d179;
+    margin-bottom: 17px;
+}
+.SignUpButton:hover {
+    background-color: #3a9c4b;
+}
+.SignUpButton span {
+    color: white;
+}
+.ErrorAlert p {
+    color: rgb(207, 45, 45);
+}
+.ErrorAlertLogIn p {
+    margin-bottom: 17px;
+    color: rgb(207, 45, 45);
+}
+
+@media (max-width: 425px) {
+    .LogIn {
+        width: 100%;
+        height: 100vh;
+        border-radius: 0px;
+    }
+}
